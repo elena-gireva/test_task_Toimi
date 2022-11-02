@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gilroy-regular.css">
+    <link rel="stylesheet" href="gilroy-bold.css">
+    <link rel="stylesheet" href="circe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav_container">
+        <a class="logo" href="#">LOGO</a>
+        <div class="list">
+            <ul class="menu">
+                <li>
+                    <a class="link_decor" href="#">Проекты</a>
+                </li>
+                <li>
+                    <a class="link_decor" href="#">О компании</a>
+                </li>
+                <li>
+                    <a class="link_decor" href="#">Контакты</a>
+                </li>
+            </ul>
+        </div>
+        
+        
+        <ul  class="language">
+            <li>
+                <a class="link_decor lang" href="#">RU</a>
+            </li>
+            <li>
+                <a class="link_decor lang" href="#">EN</a>
+            </li>
+        </ul>
+        <a class="start" href="#">Начать проект</a>
+    </nav>
+    <main>
+        <h2 class="page_name">Главная-<span class="bolder">Контакты<span></h2>
+        <div class="head_page">Мы рядом</div>
+        <span class="recomendation">Заполните форму ниже и мы свяжемся с вами. Не любите формы? Напишите нам на почту info@site.com</span>
+        <form class="form_registarion" action="" method="post">
+            <div class="user_data">
+                <div class="input_position user_name" data-validate="Ваше имя">
+                    <input class="this_input" type="text" required="required">
+                    <div class="focus_input" data-placeholder="Ваше имя"><span class="red">*</span></div>
+                </div>
+                <div class="input_position user_mail" data-validate="Valid email is: a@b.c">
+                    <input class="this_input" type="text" name="email" required="required">
+                    <div class="focus_input" data-placeholder="Email"><span class="red">*</span></div>
+                </div>
+            </div>
+            <div class="input_position user_comment" data-validate="Комментарий">
+                <input class="this_input" type="text" name="Комментарий" required="required">
+                <div class="focus_input" data-placeholder="Комментарий"><span class="red">*</span></div>
+            </div>
+            <div class="radio_position" >
+                <input type="radio" id="approval" required checked>
+                <label class = "dark_grey" for="approval">Согласен с <span class="blue">Политикой конфиденциальности</span></label>
+            </div>
+            
+            <div class="btn_letter">
+                <button class="send_letter flex_column"></button>
+                <img class="letter" src="images/letter.png" alt="letter">
+            </div>
+        </form>
+    </main>
+    
+    
+    <footer>
+        <div class="flex">
+            <div class="footer_logo">
+                <a class="logo white" href="#">LOGO</a>
+            </div>
+            <div class="row_position">
+                <div class="flex_column first">
+                    <a class="first_in_column" href="#">Услуги</a>
+                    <a class="second_in_column" href="#">Support and development</a>
+                    <a class="second_in_column" href="#">UI/UX and product design</a>
+                    <a class="second_in_column" href="#">Progressive Web Applications (PWA)</a>
+                </div>
+                <div class="flex_column second">
+                    <a class="first_in_column" href="#">Компания</a>
+                    <a class="second_in_column" href="#">О компании</a>
+                    <a class="second_in_column" href="#">Проекты</a>
+                    <a class="second_in_column" href="#">Контакты</a>
+                </div>
+                <div class="flex_column third">
+                    <a class="first_in_column" href="#">Контакты</a>
+                    <a class="second_in_column" href="#">Скачать презентацию</a>
+                    <a class="second_in_column" href="#">+7 (499) 999-99-99</a>
+                    <a class="second_in_column" href="#">info@site.com</a>
+                </div>
+                <ul class="social-icons">
+                    <li><a href="#"><img src='images/img_telegram.svg' target="_blank" rel="noopener" alt="telegram"/></a></li>
+                    <li><a href="#"><img src='images/img_whatsapp.svg' target="_blank" rel="noopener" alt="whatsapp"/></a></li>
+                </ul>
+            </div>   
+        </div>
+        
+        <div class="footer_comment">
+            <span class="second_in_column">© Company 2022. All rights reserved.</span>
+            <a class="second_in_column" href="#">Политика конфиденциальночти</a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

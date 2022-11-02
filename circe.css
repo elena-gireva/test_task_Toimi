@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'Circe Bold';
+	src: url('../fonts/circe_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/circe_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/circe_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/circe_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/circe_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/circe_bold.svg#circe_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Circe ExtraBold';
+	src: url('../fonts/circe_extrabold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/circe_extrabold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/circe_extrabold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/circe_extrabold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/circe_extrabold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/circe_extrabold.svg#circe_extrabold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Circe ExtraLight';
+	src: url('../fonts/circe_extralight.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/circe_extralight.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/circe_extralight.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/circe_extralight.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/circe_extralight.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/circe_extralight.svg#circe_extralight') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Circe Light';
+	src: url('../fonts/circe_light.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/circe_light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/circe_light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/circe_light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/circe_light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/circe_light.svg#circe_light') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('../fonts/circe.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/circe.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/circe.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/circe.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/circe.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/circe.svg#circe') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Circe Thin';
+	src: url('../fonts/circe_thin.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/circe_thin.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/circe_thin.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/circe_thin.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/circe_thin.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/circe_thin.svg#circe_thin') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
